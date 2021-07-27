@@ -133,7 +133,7 @@ display: inline-block;
 /*--SERVICE--*/
 .service{
 background:#fff;
-padding:7em 0;
+
 }
 .service-head{
 text-align:center;
@@ -176,28 +176,29 @@ word-spacing:1.5px;
 font-family: 'Source Code Pro';
 }
 /*--author--*/
-.author{
+.about{
 text-align:center;
-background:#000;
+background:#FFF;
 padding:7em 0;
 }
-.author h3{
-color:#fff;
+.about h3{
+color:#000;
+text-align:left;
 font-size:2em;
 letter-spacing:1px;
 font-weight:400;
 font-family: 'Source Code Pro';
 text-transform:uppercase;
 }
-.author h3 span{
+.about h3 span{
 display:block;
 margin-top:15px;
 }
-.author h4{
-color:#fff;
+.about h2{
+color:#000;
 font-weight:600;
-font-size:2.1em;
-margin-top:2em;
+font-size:4.2em;
+margin-top:0em;
 font-family:Century Gothic;
 }
 /*--portfolio--*/
@@ -951,7 +952,7 @@ width: 100%;
 .top-menu span.menu {
 margin-top: 0px;
 }
-.banner-info {
+/*.banner-info {
 text-align: center;
 margin: 16% 0;
 }
@@ -961,7 +962,7 @@ letter-spacing: 0.5px;
 }
 .banner-info h1 {
 font-size: 2.7em;
-}
+}*/
 a.downarrow {
 margin-top: 4em;
 }
