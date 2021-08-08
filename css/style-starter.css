@@ -491,8 +491,11 @@ pre {
       max-width: 960px; } }
   @media (min-width: 1200px) {
     .container {
+      max-width: 1140px; }
+  @media (min-width: 1140) {
+    .container {
       max-width: 1140px; } }
-
+    }
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   width: 100%;
   padding-right: 15px;

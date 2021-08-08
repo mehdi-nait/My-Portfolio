@@ -183,12 +183,12 @@ a:hover {
 }
 
 a:not([href]) {
-  color: inherit;
+  /*color: inherit;*/
   text-decoration: none;
 }
 
 a:not([href]):hover {
-  color: inherit;
+  /*color: inherit;*/
   text-decoration: none;
 }
 
@@ -14015,7 +14015,8 @@ a.text-dark:focus {
 }
 
 :root {
-  --primary-color: #f3525a;
+  --primary-color: #000;
+  --priamry-color2:#fff;
   --primary-dark: #172541;
   --secondary-color: #1545CB;
   --layer: rgba(0, 0, 0, 0.5);
@@ -14044,7 +14045,7 @@ a.text-dark:focus {
 }
 
 [data-theme="dark"] {
-  --primary-color: #f3525a;
+  --primary-color: #000;
   --primary-dark: #172541;
   --secondary-color: #1545CB;
   --layer: rgba(0, 0, 0, 0.65);
@@ -14972,7 +14973,7 @@ nav ul li a:hover {
 }
 
 span.title-small {
-  color: var(--primary-color);
+  color: var(--primary-color2);
   font-size: 20px;
   line-height: 25px;
 }
@@ -15349,7 +15350,7 @@ h6.title {
 .m-timeline__date {
   font-size: 1em;
   margin: 0 0 0.3em;
-  color: var(--heading-color);
+  color: #fff;
   font-weight: 700;
 }
 
