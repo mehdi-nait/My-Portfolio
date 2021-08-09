@@ -1095,6 +1095,8 @@ font-size: 1em;
 .p_about {
 	font-size: large;
 	color: #000;
+	text-align: justify;
+	
 }
 
 .service h2{
