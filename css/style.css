@@ -1122,3 +1122,15 @@ font-size: 1em;
 	display: table;
 	clear: both;
 }
+
+.my_button {
+	border-color: #FFF;
+    background-color: Transparent;
+    height: 5rem;
+	width: 15rem;
+	font-size: large;
+	
+}
+.a_button{
+	color: #fff;
+}
