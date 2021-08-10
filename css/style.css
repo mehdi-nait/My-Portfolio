@@ -29,6 +29,7 @@ padding:0;
 /*----*/
 .banner{
 background:#000000;
+padding-bottom: 16em;
 }
 .logo{
 float:left;
@@ -155,7 +156,7 @@ font-weight:600;
 font-family: 'Source Code Pro';
 }
 .service-grids{
- margin-top:6%;
+ margin-top:2%;
 }
 .service-grid{
 text-align:center;
@@ -192,7 +193,7 @@ text-transform:uppercase;
 }
 .about h3 span{
 display:block;
-margin-top:15px;
+margin-top:10px;
 }
 .about h2{
 color:#000;
@@ -350,8 +351,8 @@ width: 250px;
 #education{
 	background:#000;
 	padding:2em 0;
-	padding-bottom: 8em;
-	margin-top: 10em;
+	padding-bottom: 5em;
+	margin-top: 5em;
 	}
 	.education-head h3{
 	color:#fff;
@@ -361,6 +362,7 @@ width: 250px;
 	font-weight:600;
 	text-align:center;
 	margin-bottom:10px;
+	margin-top: 0em;
 	}
 	.education-head h4{
 	color: #fff;
@@ -371,8 +373,8 @@ width: 250px;
 	text-align:center;
 	font-family: 'Source Code Pro';
 	}
-/*--teamwork--*/
-.teamwork{
+/*--skills--*/
+.skills{
 background:#000;
 padding:10em 0;
 }
@@ -688,7 +690,7 @@ letter-spacing: 1px;
 .service-grid {
 width: 33%;
 float: left;
-padding:0 10px;
+padding:0 10em;
 }
 .service-grid img{
 width: 31%;
@@ -848,7 +850,7 @@ width: 28%;
 height: 157px;
 width: 165px;
 }
-.teamwork {
+.skills {
 padding: 3.5em 0;
 }
 .nbs-flexisel-item img {
@@ -1028,8 +1030,9 @@ width: 123px;
 .works {
 padding: 2em 0 3em 0;
 }
-.teamwork {
+.skills {
 padding: 2em 0;
+padding-bottom: 40em;
 }
 .team-head h4 {
 font-size: 0.85em;
@@ -1107,3 +1110,15 @@ font-size: 1em;
 	font-family:Century Gothic;
 }
 
+.column {
+	float: left;
+	width: 25%;
+	text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
