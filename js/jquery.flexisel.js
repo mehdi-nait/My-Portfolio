@@ -22,18 +22,18 @@
 			setMaxWidthAndHeight: false,
     		enableResponsiveBreakpoints: false,
     		responsiveBreakpoints: { 
-	    		portrait: { 
-	    			changePoint:480,
-	    			visibleItems: 1
-	    		}, 
-	    		landscape: { 
-	    			changePoint:640,
-	    			visibleItems: 2
-	    		},
-	    		tablet: { 
-	    			changePoint:768,
-	    			visibleItems: 3
-	    		}
+				portrait: {
+					changePoint: 640,
+					visibleItems: 1
+				},
+				landscape: {
+					changePoint: 768,
+					visibleItems: 2
+				},
+				tablet: {
+					changePoint: 1024,
+					visibleItems: 3
+				}
         	}
         }, options);
         
@@ -174,13 +174,13 @@
 				var contentWidth = $('html').width();
 				
 				if(settings.enableResponsiveBreakpoints == true) {
-					if(contentWidth < settings.responsiveBreakpoints.portrait.changePoint) {
+					if(contentWidth <= settings.responsiveBreakpoints.portrait.changePoint) {
 						itemsVisible = settings.responsiveBreakpoints.portrait.visibleItems;
 					}
-					else if(contentWidth > settings.responsiveBreakpoints.portrait.changePoint && contentWidth < settings.responsiveBreakpoints.landscape.changePoint) {
+					else if(contentWidth >= settings.responsiveBreakpoints.portrait.changePoint && contentWidth <= settings.responsiveBreakpoints.landscape.changePoint) {
 						itemsVisible = settings.responsiveBreakpoints.landscape.visibleItems;
 					}
-					else if(contentWidth > settings.responsiveBreakpoints.landscape.changePoint && contentWidth < settings.responsiveBreakpoints.tablet.changePoint) {
+					else if(contentWidth >= settings.responsiveBreakpoints.landscape.changePoint && contentWidth <= settings.responsiveBreakpoints.tablet.changePoint) {
 						itemsVisible = settings.responsiveBreakpoints.tablet.visibleItems;
 					}
 					else {

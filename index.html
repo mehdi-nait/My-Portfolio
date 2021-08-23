@@ -1,4 +1,3 @@
-
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -7,738 +6,880 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
 <html>
-<head>
-<title>Mehdi NAIT HAMMOU - Portfolio</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<link href="css/style-starter.css" rel="stylesheet" type="text/css" media="all"/>
-<link href="css/style-starter 2.css" rel="stylesheet" type="text/css" media="all"/>
-<link href="css/style-starter 2.css" rel="stylesheet" type="text/css" media="all"/>
-<link rel="icon" href="favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="Jalil Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<script src="js/jquery.min.js"> </script>
-<!---- start-smoth-scrolling---->
-		<script type="text/javascript" src="js/move-top.js"></script>
-		<script type="text/javascript" src="js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
-				});
-			});
-		</script>
- 	<!---- start-smoth-scrolling---->
 
-</head>
-<body>
-<!--body-->
-<div id="home" class="banner">
-	 <div class="container">
-		 <div class="top-header">		  
-				<div class="logo">
-					<a href="index.html"><img src="images/logo2.png" alt="" /></a>
-				</div>
-			  <div class="top-menu">
-					<span class="menu"> </span>
-				  <ul>
-				      <nav class="cl-effect-5">
-							<li><a class="active scroll"  href="#home"><span data-hover="HOME">Home</span></a></li> 
-							<li>/</li>
-							<li><a class="scroll" href="#about"><span data-hover="ABOUT">About</span></a></li>
-							<li>/</li>
-							<li><a class="scroll" href="#education"><span data-hover="Education">Education</span></a></li> 
-							<li>/</li>
-							<li><a class="scroll" href="#portfolio"><span data-hover="PORTFOLIO">Portfolio</span></a></li>
-							<li>/</li>
-							<li><a class="scroll" href="#skills"><span data-hover="skills">Skills</span></a></li> 
-							<li>/</li>
-							<li><a class="scroll" href="#references"><span data-hover="References">References</span></a></li> 
-							<li>/</li>
-							<li><a class="scroll" href="#contact"><span data-hover="CONTACT">Contact</span></a></li>
-					 </nav>
-				  </ul>			 	 
-			  </div>	
-				<!-- script-for-menu -->
-			 <script>
-				$("span.menu").click(function(){
-					$(".top-menu ul").slideToggle("slow" , function(){
-					});
-				});
-			 </script>
-			 <!-- script-for-menu -->
-			 <div class="clearfix"></div>			
-		 </div>	 
-		 <section class="w3l-main-banner">
-			<div class="banner-view">
-			  <div class="banner-info container">
-				<h3 class="banner-text"><small>Hello, I’m</small>
-					Mehdi NAIT HAMMOU
-				</h3>
-				<p class="mt-3 mb-5" style="color: white;"> I'm a <strong style="color: lightgray;">Real Time & Embedded systems</strong> engineering student, passionate about <b>Computer Vision</b> and <b>TinyML</b> fields</p><br>
-				  <button class="my_button" ><a class="a_button" href="https://www.linkedin.com/in/mehdi-nait-hammou/" target="_blank">Reach out</a></button>
-				  
-				  
-			  </div>
-			  
-			</div>
-		  
-			
-		  </section>
-			  
-	 </div>
-	 		 
-</div>
+    <head>
+        <title>Mehdi NAIT HAMMOU - Portfolio</title>
+        <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/style-starter.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/style-starter 2.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/style-starter 2.css" rel="stylesheet" type="text/css" media="all"/>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Jalil Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+                                                                                                                                                Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"/>
+        <script type="application/x-javascript">
+            addEventListener("load", function () {
+                setTimeout(hideURLbar, 0);
+            }, false);
+            function hideURLbar() {
+                window.scrollTo(0, 1);
+            }
+        </script>
+        <script src="js/jquery.min.js"></script>
+        <!---- start-smoth-scrolling---->
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function ($) {
+                $(".scroll").click(function (event) {
+                    event.preventDefault();
+                    $('html,body').animate({
+                        scrollTop: $(this.hash).offset().top
+                    }, 900);
+                });
+            });
+        </script>
+        <!---- start-smoth-scrolling---->
 
-<!---->
-<div id="about" class="about">
-	<div class="container">
-		<h2>ABOUT ME</h2>
-		<br><br><br><br>
-		<div  style="width: 55%; float:right">
-			<p class="p_about"> 
-				<br>
-				Currently a final year engineering student at <strong>ENSIM</strong> engineering school of <strong>Le Mans Université</strong>, majoring in <strong>Realtime and embedded systems</strong>.
-				I'm also persuing a masters degree in management and business administration at the same university. I've always been (and still am actually) interested in machine learning applications 
-				and projects, especially comptuer vision and image processing. I've always enjoyed working on projects that related to this field.
-				<br><br>
+    </head>
 
-				<p class="p_about">
-					I can be described as a geek mind that enjoyes discovering new things about life, meeting new people and going on adventures. I enjoy watching movies, running and playing football with
-					friends.
-				</p>
-			</p>
-		</div>
-		<div  style="width: 40%; float:left">
-			<img src="images/profil2.png" alt=""/>
-		</div>
-		
-		
-	</div>
-</div>
-
-
-
-<!---->
-<div id="service" class="service">
-	 <div class="container">
-		 <div class="service-head">
-		 <h3 style="font-size: 500%;">Values</h3>
-		 <h4 style="font-size: medium;letter-spacing: normal;word-spacing: normal;">What do I believe in?</h4>
-		 </div>
-		 <div class="service-grids">
-			 <div class="col-md-4 service-grid">
-				 <img src="images/hardwork.png" alt=""/>
-				 <h3>HARDWORK</h3>
-				 
-			 </div>
-			 <div class="col-md-4 service-grid">
-				 <img src="images/curiosity.png" alt=""/>
-				 <h3>CURIOSITY</h3>
-				 
-			 </div>
-			 <div class="col-md-4 service-grid">
-				 <img src="images/perfectionism.png" alt=""/>
-				 <h3>PERFECTIONISM</h3>
-			 </div>
-			 <div class="clearfix"></div>
-		 </div>		 
-	 </div>
-</div>
+    <body>
+        <!--body-->
+        <div id="home" class="banner">
+            <div class="container">
+                <div class="top-header">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo2.png" alt=""/></a>
+                    </div>
+                    <div class="top-menu">
+                        <span class="menu"></span>
+                        <ul>
+                            <nav class="cl-effect-5">
+                                <li>
+                                    <a class="active scroll" href="#home">
+                                        <span data-hover="HOME">Home</span>
+                                    </a>
+                                </li>
+                                <li>/</li>
+                                <li>
+                                    <a class="scroll" href="#about">
+                                        <span data-hover="ABOUT">About</span>
+                                    </a>
+                                </li>
+                                <li>/</li>
+                                <li>
+                                    <a class="scroll" href="#education">
+                                        <span data-hover="Education">Education</span>
+                                    </a>
+                                </li>
+                                <li>/</li>
+                                <li>
+                                    <a class="scroll" href="#portfolio">
+                                        <span data-hover="PORTFOLIO">Portfolio</span>
+                                    </a>
+                                </li>
+                                <li>/</li>
+                                <li>
+                                    <a class="scroll" href="#skills">
+                                        <span data-hover="skills">Skills</span>
+                                    </a>
+                                </li>
+                                <li>/</li>
+                                <li>
+                                    <a class="scroll" href="#references">
+                                        <span data-hover="References">References</span>
+                                    </a>
+                                </li>
+                                <li>/</li>
+                                <li>
+                                    <a class="scroll" href="#contact">
+                                        <span data-hover="CONTACT">Contact</span>
+                                    </a>
+                                </li>
+                            </nav>
+                        </ul>
+                    </div>
+                    <!-- script-for-menu -->
+                    <script>
+                        $("span.menu").click(function () {
+                            $(".top-menu ul").slideToggle("slow", function () {});
+                        });
+                    </script>
+                    <!-- script-for-menu -->
+                    <div class="clearfix"></div>
+                </div>
+                <section class="w3l-main-banner">
+                    <div class="banner-view">
+                        <div class="banner-info container">
+                            <h3 class="banner-text">
+                                <small>Hello, I’m</small>
+                                Mehdi NAIT HAMMOU
+                            </h3>
+                            <p class="mt-3 mb-5" style="color: white;">
+                                I'm a
+                                <strong style="color: lightgray;">Real Time &
+                                                                                                                                                                                                                                                                                                                                                                                                                                                								Embedded systems</strong>
+                                engineering student, passionate about
+                                <b>Computer Vision</b>
+                                and
+                                <b>TinyML</b>
+                                fields</p><br>
+                            <button class="my_button">
+                                <a class="a_button" href="https://www.linkedin.com/in/mehdi-nait-hammou/" target="_blank">Reach
+                                                                                                                                                                                                                                                                                                                                                                                                                                                								out</a>
+                            </button>
 
 
-<!---->
-<div id = "education" class="education">
- <!--/w3l-education-->
- <section  id="education">
-    <div class = "Job">
-		<div class="team-head">
-			<h3>Education</h3>
-			
-		</div>
-      <div class="w3l-educatiob-job-info mt-lg-5 mt-3 pt-lg-2">
-        <ul class="m-timeline">
-		  <li>
-			<a href="http://ecodroit.univ-lemans.fr/fr/index.html" target="_blank">
-				<div>
-					<div style="width: 30%; float:right">
-						<div class="m-timeline__date">
-							<span>September 2021 - Currently</span>
-							<p></p>
-					   </div>
-					   <p>Le Mans Université - Le Mans, France</p>
-					   <p style="font-size: small;">Masters degree in management and business administration</p>
-					   
-					 </div>
-					 
-					 <div style="width: 60%; float:right">
-						<img src="images/faculté.png">
-					 </div>
-				 </div>
+                        </div>
 
-			</a>
-			<br>
-		  	<br>
-			<br>
-			<br>
-			<br>
-			<br>
-		  </li>
-		  
-          <li>
-            <div class="m-timeline__date">
-				<a href="http://ensim.univ-lemans.fr/fr/index.html" target="_blank">
-					<div>
-						<div style="width: 30%; float:left">
-						<div class="m-timeline__date">
-							<span>September 2020 - Currently</span>
-							<p></p>
-					   </div>
-					   <p>ENSIM - Le Mans Université - Le Mans, France</p>
-					   <p style="font-size: small;">Realtime & embedded systems engineering</p>
-					   
-					 </div>
-						 
-						 <div style="width: 70%; float:left">
-							<img src="images/ensim.png">
-						 </div>
-					 </div>
-					
-				</a>
+                    </div>
+
+
+                </section>
+
             </div>
-		  	<br>
-		  	<br>
-		  	<br>
-			<br>
-		  	<br>
-		  	<br>
-		  	<br>
-          </li>
 
-          <li>
-            <div class="m-timeline__date">
-				<a href="https://www.mafoder.com/" target="_blank">
-					<div>
-						<div style="width: 35%; float:right">
-							<div class="m-timeline__date">
-								<span>July 2019 - Auguest 2019</span>
-						   </div>
-						   <p> MAFODER Group - Casablanca, Morocco</p>
-						   <p style="font-size: small;">Intern</p>
-						 </div>
-						 
-						 <div style="width: 60%; float:right">
-							<img src="images/mafoder.png">
-						 </div>
-					 </div>
-				</a>
+        </div>
+
+        <!---->
+        <div id="about" class="about">
+            <div class="container">
+                <h2>ABOUT ME</h2>
+                <br><br><br><br/>
+                <div class="inner">
+                    <img src="images/profil2.png" alt=""/>
+                    <div class="text-container">
+                        <p class="p_about">
+                            Currently a final year engineering student at
+                            <strong>ENSIM</strong>
+                            engineering school of
+                            <strong>Le Mans Université</strong>, majoring in
+                            <strong>Realtime and embedded systems</strong>.
+                                                                                                                                                                                                                                                                                                                                                                                                						I'm also persuing a masters degree in management and business administration at the same
+                                                                                                                                                                                                                                                                                                                                                                                                						university. I've always been (and still am actually) interested in machine learning applications
+                                                                                                                                                                                                                                                                                                                                                                                                						and projects, especially comptuer vision and image processing. I've always enjoyed working on
+                                                                                                                                                                                                                                                                                                                                                                                                						projects that related to this field.
+                        </p>
+
+                        <p class="p_about">
+                            I can be described as a geek mind that enjoys discovering new things about life, meeting new
+                                                                                                                                                                                                                                                                                                                                                						people and going on adventures. I enjoy watching movies, running and playing football with
+                                                                                                                                                                                                                                                                                                                                                						friends.
+
+                        </p>
+                    </div>
+                </div>
+
             </div>
-			<br>
-			<br>
-			<br>
-			<br>
-          </li>
+        </div>
 
-          <li>
-             <div class="m-timeline__date">
-				<a href="http://ensias.um5.ac.ma/" target="_blank">
-					<div>
-						<div style="width: 30%; float:left">
-							<div class="m-timeline__date">
-								<span>September 2018 - June 2020</span>
-						   </div>
-						   <p> ENSIAS (Mohamed V university) - Rabat, Morocco</p>
-						   <p style="font-size: small;">Embedded and mobile systems engineering</p>
-						 </div>
-						 
-						 <div style="width: 70%; float:left">
-							<img src="images/ENSIAS.png">
-						 </div>
-					 </div>
-					
-				</a>
+
+        <!---->
+        <div id="service" class="service">
+            <div class="container">
+                <div class="service-head">
+                    <h3>VALUES</h3>
+                    <h4 style="font-size: medium;letter-spacing: normal;word-spacing: normal;">What do I believe in?</h4>
+                </div>
+                <div class="service-grids">
+                    <div class="col-md-4 service-grid">
+                        <img src="images/hardwork.png" alt=""/>
+                        <h3>HARDWORK</h3>
+
+                    </div>
+                    <div class="col-md-4 service-grid">
+                        <img src="images/curiosity.png" alt=""/>
+                        <h3>CURIOSITY</h3>
+
+                    </div>
+                    <div class="col-md-4 service-grid">
+                        <img src="images/perfectionism.png" alt=""/>
+                        <h3>PERFECTIONISM</h3>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
             </div>
-		  	<br>
-		  	<br>
-			<br>
-		  	<br>
-		  	<br>
-		  	<br>
-          </li>
+        </div>
 
-          <li>
-            <div class="m-timeline__date">
-				<a href="http://www.cpge.ac.ma/" target="_blank">
-					<div>
-						<div style="width: 40%; float:right">
-							<div class="m-timeline__date">
-								<span>September 2016 - June 2018</span>
-						   </div>
-						   <p>CPGE Lycée Mohamed V - Casablanca, Morocco</p>
-						   <p style="font-size: small;">Physics and Industrial sciences (PCSI/PSI)</p>
-						 </div>
-						 
-						 <div style="width: 60%; float:right">
-							<img src="images/cpge.png">
-						 </div>
-					 </div>
-				</a>
+
+        <!---->
+        <div
+            id="education" class="education">
+            <!--/w3l-education-->
+            <section id="education">
+                <div class="Job">
+                    <div class="team-head">
+                        <h3>EDUCATION</h3>
+
+                    </div>
+                    <div class="w3l-educatiob-job-info mt-lg-5 mt-3 pt-lg-2">
+                        <ul class="m-timeline">
+                            <li>
+                                <a href="http://ecodroit.univ-lemans.fr/fr/index.html" target="_blank">
+                                    <div>
+                                        <div style="width: 30%; float:right">
+                                            <div class="m-timeline__date">
+                                                <span>September 2021 - Currently</span>
+                                                <p></p>
+                                            </div>
+                                            <p>Le Mans Université - Le Mans, France</p>
+                                            <p style="font-size: small;">Masters degree in management and business
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                											administration</p>
+
+                                        </div>
+
+                                        <div style="width: 60%; float:right">
+                                            <img src="images/faculté.png">
+                                        </div>
+                                    </div>
+
+                                </a>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                            </li>
+
+                            <li>
+                                <div class="m-timeline__date">
+                                    <a href="http://ensim.univ-lemans.fr/fr/index.html" target="_blank">
+                                        <div>
+                                            <div style="width: 30%; float:left">
+                                                <div class="m-timeline__date">
+                                                    <span>September 2020 - Currently</span>
+                                                    <p></p>
+                                                </div>
+                                                <p>ENSIM - Le Mans Université - Le Mans, France</p>
+                                                <p style="font-size: small;">Realtime & embedded systems engineering</p>
+
+                                            </div>
+
+                                            <div style="width: 70%; float:left">
+                                                <img src="images/ensim.png">
+                                            </div>
+                                        </div>
+
+                                    </a>
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                            </li>
+
+                            <li>
+                                <div class="m-timeline__date">
+                                    <a href="https://www.mafoder.com/" target="_blank">
+                                        <div>
+                                            <div style="width: 35%; float:right">
+                                                <div class="m-timeline__date">
+                                                    <span>July 2019 - Auguest 2019</span>
+                                                </div>
+                                                <p>
+                                                    MAFODER Group - Casablanca, Morocco</p>
+                                                <p style="font-size: small;">Intern</p>
+                                            </div>
+
+                                            <div style="width: 60%; float:right">
+                                                <img src="images/mafoder.png">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                            </li>
+
+                            <li>
+                                <div class="m-timeline__date">
+                                    <a href="http://ensias.um5.ac.ma/" target="_blank">
+                                        <div>
+                                            <div style="width: 30%; float:left">
+                                                <div class="m-timeline__date">
+                                                    <span>September 2018 - June 2020</span>
+                                                </div>
+                                                <p>
+                                                    ENSIAS (Mohamed V university) - Rabat, Morocco</p>
+                                                <p style="font-size: small;">Embedded and mobile systems engineering</p>
+                                            </div>
+
+                                            <div style="width: 70%; float:left">
+                                                <img src="images/ENSIAS.png">
+                                            </div>
+                                        </div>
+
+                                    </a>
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                            </li>
+
+                            <li>
+                                <div class="m-timeline__date">
+                                    <a href="http://www.cpge.ac.ma/" target="_blank">
+                                        <div>
+                                            <div style="width: 40%; float:right">
+                                                <div class="m-timeline__date">
+                                                    <span>September 2016 - June 2018</span>
+                                                </div>
+                                                <p>CPGE Lycée Mohamed V - Casablanca, Morocco</p>
+                                                <p style="font-size: small;">Physics and Industrial sciences (PCSI/PSI)</p>
+                                            </div>
+
+                                            <div style="width: 60%; float:right">
+                                                <img src="images/cpge.png">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!--//w3l-education-->
+        </div>
+
+        <!---->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/responsiveslides.min.js"></script>
+        <script>
+            // You can also use "$(window).load(function() {"
+            $(function () {
+                $("#slider2").responsiveSlides({auto: true, pager: true, speed: 300, namespace: "callbacks"});
+            });
+        </script>
+        <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+
+
+        <div id="portfolio" class="portfolio">
+            <div class="container">
+                <h3>PORTFOLIO</h3>
+                <div class="slider">
+                    <ul class="rslides" id="slider2">
+                        <li>
+                            <div class="works main">
+                                <div class="gallery-box">
+
+                                    <div id="nivo-lightbox-demo">
+                                        <p>
+                                            <a href="https://github.com/mehdi-nait/Set-Game-app" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo" target="_blank">
+                                                <span class="rollover1"></span>
+                                                <span class="rollover2"></span>
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <img src="images/Set.png" alt="">
+                                    <a href="https://github.com/mehdi-nait/Set-Game-app" target="_blank">
+                                        <h1 id="titre">SET! cards recognition app</h>
+                                    </a>
+
+                                    <br>
+                                    <a href="https://github.com/mehdi-nait/Set-Game-app" target="_blank">
+                                        <p>The aim of this project is to create a computer vision application that can
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                										recognize Set! game cards and use the model to create a desktop multiplayer
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                										game.</p>
+                                    </a>
+
+                                </div>
+
+                                <div class="gallery-box">
+                                    <div id="nivo-lightbox-demo">
+                                        <p>
+                                            <a href="https://github.com/mehdi-nait/Heart-Failure-Symptomes-detection" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo" target="_blank">
+                                                <span class="rollover1"></span>
+                                                <span class="rollover2"></span>
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <img src="images/kaggle.gif" alt="">
+
+                                    <a href="https://github.com/mehdi-nait/Heart-Failure-Symptomes-detection" target="_blank">
+                                        <h1 id="titre">Kaggle's 2nd annual Data science bowl</h>
+                                        <br>
+
+                                        <p>Using DICOM MRI images to detect heart failiure using an estimation of the
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                											ejection fraction coefficient EF</p>
+                                    </a>
+
+                                </div>
+
+                                <div class="gallery-box">
+                                    <div id="nivo-lightbox-demo">
+                                        <p>
+                                            <a href="https://github.com/mehdi-nait/MNIST-sign-language-classifier" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo" target="_blank">
+                                                <span class="rollover1"></span>
+                                                <span class="rollover2"></span>
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <img src="images/sign language.jpg" alt="">
+
+                                    <a href="https://github.com/mehdi-nait/MNIST-sign-language-classifier" target="_blank">
+                                        <h1 id="titre">MNIST Sign language recognition</h>
+                                        <br>
+
+                                        <p>Benchmarking diffrent classification algorithms combined with diffrent
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                											feature extraction algorithms using MNIST Sign language dataset</p>
+                                    </a>
+
+                                </div>
+
+                                <div class="gallery-box">
+                                    <div id="nivo-lightbox-demo">
+                                        <p>
+                                            <a href="https://github.com/mehdi-nait/Facial-recognition" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo" target="_blank">
+                                                <span class="rollover1"></span>
+                                                <span class="rollover2"></span>
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <img src="images/facial recognition.png" alt="">
+
+                                    <a href="https://github.com/mehdi-nait/Facial-recognition" target="_blank">
+                                        <h1 id="titre">LFW dataset facial recognition</h>
+                                        <br>
+
+                                        <p>Using labeled faces in the wild dataset to train diffrent recognition models,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                											to find the optimal hyperparameters for a facial recognition model</p>
+                                    </a>
+
+                                </div>
+
+                                <div class="gallery-box">
+                                    <div id="nivo-lightbox-demo">
+                                        <p>
+                                            <a href="https://github.com/mehdi-nait/Projet_Automatique" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo" target="_blank">
+                                                <span class="rollover1"></span>
+                                                <span class="rollover2"></span>
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <img src="images/automatique.png" alt="">
+                                    <a href="https://github.com/mehdi-nait/Projet_Automatique" target="_blank">
+                                        <h1 id="titre">Thermal conductivity mesuring system</h>
+                                        <br>
+
+                                        <p>Creating a thermal thermal conductivity mesuring system using a PID
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                											controlled heated copper plate and a fluxmeter</p>
+
+
+                                    </a>
+                                </div>
+                                <div class="gallery-box">
+                                    <div id="nivo-lightbox-demo">
+                                        <p>
+                                            <a href="https://github.com/mehdi-nait/Client-Server-chat-app" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo" target="_blank">
+                                                <span class="rollover1"></span>
+                                                <span class="rollover2"></span>
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <img src="images/chat.jpg" alt="">
+                                    <a href="https://github.com/mehdi-nait/Client-Server-chat-app" target="_blank">
+                                        <h1 id="titre">Chat application using C language</h>
+                                        <br>
+
+                                        <p>A multiple client over the network chat application, using server/client
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                											architecture, implemented in C language</p>
+
+                                    </a>
+                                </div>
+
+                                <div class="gallery-box">
+                                    <div id="nivo-lightbox-demo">
+                                        <p>
+                                            <a href="https://github.com/mehdi-nait/Mini-FTP-Server" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo" target="_blank">
+                                                <span class="rollover1"></span>
+                                                <span class="rollover2"></span>
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <img src="images/ftp.png" alt="">
+                                    <a href="https://github.com/mehdi-nait/Mini-FTP-Server" target="_blank">
+                                        <h1 id="titre">Simplified FTP Server in JAVA</h>
+                                        <br>
+
+                                        <p>This project is an implementation of a simplified FTP server used to share
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                											files across the network between clients using java TCP sockets</p>
+                                    </a>
+
+                                </div>
+                                <div class="gallery-box">
+                                    <div id="nivo-lightbox-demo">
+                                        <p>
+                                            <a href="#" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo" target="_blank">
+                                                <span class="rollover1"></span>
+                                                <span class="rollover2"></span>
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <img src="images/traffic.jpg" alt="">
+                                    <a href="#" data-lightbox-gallery="gallery1" target="_blank">
+                                        <h1 id="titre">Smart traffic lights management system</h>
+                                        <br>
+
+                                        <p>A smart crossroad traffic light using that allows variable activation times
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                											depending on the number of cars in each road</p>
+                                    </a>
+
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                        <!--li>
+                                                                                                                                                                                                                                                                                                					 <div class="works main">						  
+                                                                                                                                                                                                                                                                                                						  <div class="gallery-box">
+                                                                                                                                                                                                                                                                                                								<div id="nivo-lightbox-demo"> <p> <a href="images/p3.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
+                                                                                                                                                                                                                                                                                                								<img src="images/p3.jpg" alt="">
+                                                                                                                                                                                                                                                                                                						  </div>
+                                                                                                                                                                                                                                                                                                						  <div class="gallery-box">
+                                                                                                                                                                                                                                                                                                								<div id="nivo-lightbox-demo"> <p> <a href="images/p7.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
+                                                                                                                                                                                                                                                                                                								<img src="images/p7.jpg" alt="">
+                                                                                                                                                                                                                                                                                                						  </div>
+                                                                                                                                                                                                                                                                                                						  <div class="gallery-box">
+                                                                                                                                                                                                                                                                                                								<div id="nivo-lightbox-demo"> <p> <a href="images/p6.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+                                                                                                                                                                                                                                                                                                							    <img src="images/p6.jpg" alt="">
+                                                                                                                                                                                                                                                                                                						  </div>
+                                                                                                                                                                                                                                                                                                						  <div class="gallery-box">
+                                                                                                                                                                                                                                                                                                								<div id="nivo-lightbox-demo"> <p> <a href="images/p4.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+                                                                                                                                                                                                                                                                                                								<img src="images/p4.jpg" alt="">
+                                                                                                                                                                                                                                                                                                						  </div>
+                                                                                                                                                                                                                                                                                                						  <div class="gallery-box">
+                                                                                                                                                                                                                                                                                                								<div id="nivo-lightbox-demo"> <p> <a href="images/p5.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+                                                                                                                                                                                                                                                                                                								<img src="images/p5.jpg" alt="">
+                                                                                                                                                                                                                                                                                                						  </div>
+                                                                                                                                                                                                                                                                                                						  <div class="gallery-box">
+                                                                                                                                                                                                                                                                                                								<div id="nivo-lightbox-demo"> <p> <a href="images/p1.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+                                                                                                                                                                                                                                                                                                								<img src="images/p1.jpg" alt="">
+                                                                                                                                                                                                                                                                                                						  </div>
+                                                                                                                                                                                                                                                                                                						  <div class="gallery-box">
+                                                                                                                                                                                                                                                                                                								<div id="nivo-lightbox-demo"> <p> <a href="images/p2.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+                                                                                                                                                                                                                                                                                                								<img src="images/p2.jpg" alt="">
+                                                                                                                                                                                                                                                                                                						  </div>
+                                                                                                                                                                                                                                                                                                						  <div class="gallery-box">
+                                                                                                                                                                                                                                                                                                								<div id="nivo-lightbox-demo"> <p> <a href="images/p7.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+                                                                                                                                                                                                                                                                                                								<img src="images/p7.jpg" alt="">
+                                                                                                                                                                                                                                                                                                						  </div>
+                                                                                                                                                                                                                                                                                                						 <div class="clearfix"></div>
+                                                                                                                                                                                                                                                                                                					  </div>				
+                                                                                                                                                                                                                                                                                                				  </li-->
+                        <!--li>
+                                                                                                                                                                                                                                                                                                					 <div class="works main">						  
+                                                                                                                                                                                                                                                                                                						  <div class="gallery-box">
+                                                                                                                                                                                                                                                                                                								<div id="nivo-lightbox-demo"> <p> <a href="images/p7.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
+                                                                                                                                                                                                                                                                                                								<img src="images/p7.jpg" alt="">
+                                                                                                                                                                                                                                                                                                								
+                                                                                                                                                                                                                                                                                                						  </div>
+                                                                                                                                                                                                                                                                                                						  <div class="gallery-box">
+                                                                                                                                                                                                                                                                                                								<div id="nivo-lightbox-demo"> <p> <a href="images/p4.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
+                                                                                                                                                                                                                                                                                                								<img src="images/p4.jpg" alt="">
+                                                                                                                                                                                                                                                                                                						  </div>
+                                                                                                                                                                                                                                                                                                						  <div class="gallery-box">
+                                                                                                                                                                                                                                                                                                								<div id="nivo-lightbox-demo"> <p> <a href="images/p5.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+                                                                                                                                                                                                                                                                                                							    <img src="images/p5.jpg" alt="">
+                                                                                                                                                                                                                                                                                                						  </div>
+                                                                                                                                                                                                                                                                                                						  <div class="gallery-box">
+                                                                                                                                                                                                                                                                                                								<div id="nivo-lightbox-demo"> <p> <a href="images/p3.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+                                                                                                                                                                                                                                                                                                								<img src="images/p3.jpg" alt="">
+                                                                                                                                                                                                                                                                                                						  </div>
+                                                                                                                                                                                                                                                                                                						  <div class="gallery-box">
+                                                                                                                                                                                                                                                                                                								<div id="nivo-lightbox-demo"> <p> <a href="images/p1.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+                                                                                                                                                                                                                                                                                                								<img src="images/p1.jpg" alt="">
+                                                                                                                                                                                                                                                                                                						  </div>
+                                                                                                                                                                                                                                                                                                						  <div class="gallery-box">
+                                                                                                                                                                                                                                                                                                								<div id="nivo-lightbox-demo"> <p> <a href="images/p7.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+                                                                                                                                                                                                                                                                                                								<img src="images/p7.jpg" alt="">
+                                                                                                                                                                                                                                                                                                						  </div>
+                                                                                                                                                                                                                                                                                                						  <div class="gallery-box">
+                                                                                                                                                                                                                                                                                                								<div id="nivo-lightbox-demo"> <p> <a href="images/p6.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+                                                                                                                                                                                                                                                                                                								<img src="images/p6.jpg" alt="">
+                                                                                                                                                                                                                                                                                                						  </div>
+                                                                                                                                                                                                                                                                                                						  <div class="gallery-box">
+                                                                                                                                                                                                                                                                                                								<div id="nivo-lightbox-demo"> <p> <a href="images/p2.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+                                                                                                                                                                                                                                                                                                								<img src="images/p2.jpg" alt="">
+                                                                                                                                                                                                                                                                                                						  </div>
+                                                                                                                                                                                                                                                                                                						 <div class="clearfix"></div>
+                                                                                                                                                                                                                                                                                                					  </div>				
+                                                                                                                                                                                                                                                                                                				  </li-->
+                    </ul>
+
+                </div>
             </div>
-			<br>
-			<br>
-			<br>
-			<br>
-          </li>
+        </div>
+        <!---->
 
-          
-        </ul>
-      </div>
-    </div>
-  </section>
-  <!--//w3l-education-->
-</div>
-	
-<!---->
-<script src="js/jquery.min.js"> </script>
-<script src="js/responsiveslides.min.js"></script>
- <script>
-    // You can also use "$(window).load(function() {"
-    $(function () {
-      $("#slider2").responsiveSlides({
-        auto: true,
-        pager: true,
-        speed: 300,
-        namespace: "callbacks",
-      });
-    });
-  </script>
- <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+        <div class="skills">
+            <div class="container">
 
+                <div id="skills" class="team-head">
+                    <h3>SKILLS</h3>
 
+                    <br>
+                    <br>
 
-
-
-<div id="portfolio" class="portfolio">
-	 <div class="container">
-		 <h3>PORTFOLIO</h3>
-		  <div class="slider">
-				<ul class="rslides" id="slider2">
-				  <li>
-					 <div class="works main">						  
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="https://github.com/mehdi-nait/Set-Game-app" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo" target="_blank"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
-								<img src="images/Set.png" alt="">
-								<a href="https://github.com/mehdi-nait/Set-Game-app" target="_blank"><h1 id="titre">SET! cards recognition app</h></a>
-								
-									<br>
-									<a href="https://github.com/mehdi-nait/Set-Game-app" target="_blank"><p>The aim of this project is to create a computer vision application that can recognize Set! game cards and use the model to create a desktop multiplayer game.</p></a>
-									
-							  </div>
-
-							  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="https://github.com/mehdi-nait/Heart-Failure-Symptomes-detection" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo" target="_blank"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
-								<img src="images/kaggle.gif" alt="">
-
-								<a href="https://github.com/mehdi-nait/Heart-Failure-Symptomes-detection" target="_blank">
-									<h1 id="titre">Kaggle's 2nd annual Data science bowl</h>
-										<br>
-		
-										<p >Using DICOM MRI images to detect heart failiure using an estimation of the ejection fraction coefficient EF</p>
-								</a>
-								
-							  </div>
-							  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="https://github.com/mehdi-nait/MNIST-sign-language-classifier" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo" target="_blank"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
-								<img src="images/sign language.jpg" alt="">
-
-								<a href="https://github.com/mehdi-nait/MNIST-sign-language-classifier" target="_blank">
-									<h1 id="titre">MNIST Sign language recognition</h>
-										<br>
-		
-										<p>Benchmarking diffrent classification algorithms combined with diffrent feature extraction algorithms using MNIST Sign language dataset</p>
-								</a>
-								
-							  </div>
-							  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="https://github.com/mehdi-nait/Facial-recognition" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo" target="_blank"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
-								<img src="images/facial recognition.png" alt="">
-
-								<a href="https://github.com/mehdi-nait/Facial-recognition" target="_blank">
-									<h1 id="titre">LFW dataset facial recognition</h>
-										<br>
-		
-										<p>Using labeled faces in the wild dataset to train diffrent recognition models, to find the optimal hyperparameters for a facial recognition model</p>
-								</a>
-								
-							  </div>
-							  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="https://github.com/mehdi-nait/Projet_Automatique" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo" target="_blank"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
-								<img src="images/automatique.png" alt="">
-								<a href="https://github.com/mehdi-nait/Projet_Automatique" target="_blank">
-									<h1 id="titre">Thermal conductivity mesuring system</h>
-										<br>
-		
-										<p>Creating a thermal thermal conductivity mesuring system using a PID controlled heated copper plate and a fluxmeter</p>
-								  </div>
-
-								</a>
-							  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="https://github.com/mehdi-nait/Client-Server-chat-app" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo" target="_blank"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
-								<img src="images/chat.jpg" alt="">
-								<a href="https://github.com/mehdi-nait/Client-Server-chat-app" target="_blank">
-									<h1 id="titre">Chat application using C language</h>
-										<br>
-		
-										<p>A multiple client over the network chat application, using server/client architecture, implemented in C language</p>
-								  </div>
-								</a>
-								
-							  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="https://github.com/mehdi-nait/Mini-FTP-Server" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo" target="_blank"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
-								<img src="images/ftp.png" alt="">
-								<a href="https://github.com/mehdi-nait/Mini-FTP-Server" target="_blank">
-									<h1 id="titre">Simplified FTP Server in JAVA</h>
-										<br>
-		
-										<p>This project is an implementation of a simplified FTP server used to share files across the network between clients using java TCP sockets</p>
-								</a>
-								
-							  </div>
-						  <div class="gallery-box">
-							<div id="nivo-lightbox-demo"> <p> <a href="#" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo" target="_blank"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
-							<img src="images/traffic.jpg" alt="">
-							<a href="#" data-lightbox-gallery="gallery1" target="_blank">
-								<h1 id="titre">Smart traffic lights management system</h>
-									<br>
-	
-									<p>A smart crossroad traffic light using that allows variable activation times depending on the number of cars in each road</p>
-							</a>
-							
-						  </div>
-						 <div class="clearfix"></div>
-					  </div>				
-				  </li>
-				 <!--li>
-					 <div class="works main">						  
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="images/p3.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
-								<img src="images/p3.jpg" alt="">
-						  </div>
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="images/p7.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
-								<img src="images/p7.jpg" alt="">
-						  </div>
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="images/p6.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
-							    <img src="images/p6.jpg" alt="">
-						  </div>
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="images/p4.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
-								<img src="images/p4.jpg" alt="">
-						  </div>
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="images/p5.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
-								<img src="images/p5.jpg" alt="">
-						  </div>
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="images/p1.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
-								<img src="images/p1.jpg" alt="">
-						  </div>
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="images/p2.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
-								<img src="images/p2.jpg" alt="">
-						  </div>
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="images/p7.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
-								<img src="images/p7.jpg" alt="">
-						  </div>
-						 <div class="clearfix"></div>
-					  </div>				
-				  </li-->
-				 <!--li>
-					 <div class="works main">						  
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="images/p7.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
-								<img src="images/p7.jpg" alt="">
-								
-						  </div>
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="images/p4.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
-								<img src="images/p4.jpg" alt="">
-						  </div>
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="images/p5.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
-							    <img src="images/p5.jpg" alt="">
-						  </div>
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="images/p3.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
-								<img src="images/p3.jpg" alt="">
-						  </div>
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="images/p1.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
-								<img src="images/p1.jpg" alt="">
-						  </div>
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="images/p7.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
-								<img src="images/p7.jpg" alt="">
-						  </div>
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="images/p6.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
-								<img src="images/p6.jpg" alt="">
-						  </div>
-						  <div class="gallery-box">
-								<div id="nivo-lightbox-demo"> <p> <a href="images/p2.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
-								<img src="images/p2.jpg" alt="">
-						  </div>
-						 <div class="clearfix"></div>
-					  </div>				
-				  </li-->
-				</ul>
-				   
-		  </div>
-	 </div>
-</div>
-<!---->
-<div  class="skills">
-	 <div class="container">
-
-		<div id="skills" class="team-head">
-			<h3>SKILLS</h3>
-
-			<br>
-			<br>
-
-			<div style="text-align: center;">
-				<table style="width:100%">
-					<tr>
-					  <th class="th_table" style="color: white;">Machine Learning</th>
-					  <th class="th_table" style="color: white;">Programming languages</th>
-					  <th class="th_table" style="color: white;">Tools & Environments</th>
-					  <th class="th_table" style="color: white;">Operating Systems</th>
-					  
-					</tr>
-					<tr>
-					  <td class="td_table"><p><br><strong style="color: white;">Tensorflow</strong>, <strong style="color: white;">Tensorflow lite</strong>, Tensorflow micro, <strong style="color: white;">OpenCV</strong>, OpenVino, <strong style="color: white;">Keras</strong>, <strong style="color: white;">Scikit-Learn</strong> ,<strong style="color: white;">Matplotlib</strong> ,<strong style="color: white;">Numpy</strong> , SciPy.</p></td>
-					  <td class="td_table"><p><strong style="color: white;">Python3</strong>, R, <strong style="color: white;">C language</strong>, <strong style="color: white;">C++</strong>, C#, <strong style="color: white;">Java</strong>, VHDL, <strong style="color: white;"> Matlab/Octave</strong>, Assembly, <strong style="color: white;">LaTex</strong>.</p></td>
-					  <td class="td_table"><p><br><strong style="color: white;">Jupyter</strong>,  Bash, <strong style="color: white;">Version control (Git)</strong>, VsCode, AWS (ongoing), <br> Docker (ongoing)</p></td>
-					  <td class="td_table"><p><strong style="color: white;">Linux (Ubuntu, Debian, Raspbian)</strong>, Windows, MacOs</p></td>
-					</tr>
-					
-				  </table>
-			</div>
-			
-		</div>
-		<br><br>
-		<div class="team-head">
-			<table style="width:100%">
-				<tr>
-				  <th class="th_table" style="color: white;">Languages</th> 
-				</tr>
-				<tr>
-				  <td class="td_table" style="text-align: center;"><br>
-					<p>
-						<strong style="color: white;">English :</strong> Fluent <strong>(Toeic C1 level)</strong>
-					</p>
-					<p>
-						<strong style="color: white;">French :</strong> Fluent (C2 level)
-					</p>
-					<p>
-						<strong style="color: white;">German :</strong> Beginner (ongoing)
-					</p>
-					<p>
-						<strong style="color: white;">Arabic :</strong> Native language
-					</p>
-
-				</td>
-				</tr>
-				
-			  </table>
-			
-		</div>
-		<br>
-			<br>
-		<div id="certifications" class="team-head">
-			<h3>Certifications</h3>
-			<br>
-			<table style="width:100%">
-				<tr>
-				  <th class="th_table" ><a href="Documents/HCIA IoT.pdf" target="_blank" style="color: white; font-weight: 10;">HUWAEI HCIA-IoT 2.5</a></th>
-				  <th class="th_table" ><a href="Documents/Python certification.pdf" target="_blank" style="color: white; font-weight: 10;">University of Michigan Python3 Programming</a></th> 
-				  <th class="th_table" ><a href="Documents/TOEIC.pdf" target="_blank" style="color: white; font-weight: 10;">TOEIC Certification</a></th> 
-				</tr>
-				
-				<tr style="text-align: center;">
-					<td><br><a href="Documents/HCIA IoT.pdf" target="_blank"><img src="images/HCIA.png"></img></a></th>
-					<td><br><a href="Documents/Python certification.pdf" target="_blank"><img src="images/michigan.png"></img></a></th>
-					<td><br><a href="Documents/TOEIC.pdf" target="_blank"><img src="images/toeic.png"></img></a></th>
-				</tr>
-			  </table>
-			<br>
-			<br>
-
-			
-			
-		</div>
-		
-		
-
-		 <div id="references" class="team-head">
-		 <br>
-		 <br>
-		 
-		 <h3>REFERENCES</h3>
-		 
-		 </div>
-		 <div class="clients">
-			 <div class="course_demo1">
-		          <ul id="flexiselDemo1">	
-					 <li>
-						<div class="client" >
-							<img src="images/berbia.png" alt="" />
-							<h3>Pr. BERBIA Hassan</h3>
-							<h4>professor at ENSIAS</h4>
-							<br>
-							<p style="margin-left: 5%; margin-right: 5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-						</div>
-					 </li>
-					 <li>
-					    <div class="client">
-							<img src="images/Pr Berrahou.png" alt="" />
-							<h3>Pr. BERRAHOU Aissam</h3>
-							<h4>professor at ENSIAS</h4>
-							<br>
-							<p style="margin-left: 5%; margin-right: 5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-						</div>
-					  </li>	
-					 <li>
-					    <div class="client">
-							<img src="images/el bouanani.png" alt="" />
-							<h3>Pr. EL BOUANANI Faissal</h3>
-							<h4>professor at ENSIAS</h4>
-							<br>
-							<p style="margin-left: 5%; margin-right: 5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-						</div>
-					 </li>	
-					 <li>
-					    <div class="client">
-							<img src="images/jamali.png" alt="" />
-							<h3>Mr. JAMALI Hatim</h3>
-							<h4>professor at ENSIAS</h4>
-							<br>
-							<p style="margin-left: 5%; margin-right: 5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-						</div>
-					 </li>	
-					 <li>
-						<div class="client">
-							<img src="images/moukhlis.png" alt="" />
-							<h3>Mr. MOUKHLIS Yahiya</h3>
-							<h4>professor at ENSIAS</h4>
-							<br>
-							<p style="margin-left: 5%; margin-right: 5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-						</div>
-					 </li>	
-					 <li>
-						<div class="client">
-							<img src="images/ezzaim.png" alt="" />
-							<h3>Mr EZZAIM Soufiane</h3>
-							<h4>professor at ENSIAS</h4>
-							<br>
-							<p style="margin-left: 5%; margin-right: 5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-						</div>
-					 </li>
-					 
-				 </ul>
-			 </div>
-			 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-				<script type="text/javascript">
-			 $(window).load(function() {
-				$("#flexiselDemo1").flexisel({
-					visibleItems: 4,
-					animationSpeed: 1000,
-					autoPlay: true,
-					autoPlaySpeed: 3000,    		
-					pauseOnHover: true,
-					enableResponsiveBreakpoints: true,
-			    	responsiveBreakpoints: { 
-			    		portrait: { 
-			    			changePoint:480,
-			    			visibleItems: 1
-			    		}, 
-			    		landscape: { 
-			    			changePoint:640,
-			    			visibleItems: 2
-			    		},
-			    		tablet: { 
-			    			changePoint:768,
-			    			visibleItems: 3
-			    		}
-			    	}
-			    });
-			    
-			 });
-			  </script>
-			 <script type="text/javascript" src="js/jquery.flexisel.js"></script>
-		 </div>
-
-		 
-	 </div>
-</div>
-
-<!---contact-->
-<div id="contact" class="contact">
-	 <div class="container" >
-		<div class="team-head">
-			<h3>Contact Me</h3>
-			<p style="text-align: center; color: #000;font-size: large;">
-				I'm currently looking for an end-of-study 6 months internship, to begin Feb. 2022. If you have any openning available I would be happy to participate in an interview.
-			</p>
-			</div>
-			<br><br>
-			<div class="div_center">
-				<a href="https://www.github.com/mehdi-nait">
-					<span class="fa fa-github fa-5x" aria-hidden="false"></span>
-				</a>
-				
-				
-				<a href="https://www.linkedin.com/in/mehdi-nait-hammou/">
-					<span class="fa fa-linkedin-square fa-5x" aria-hidden="true"></span>
-				</a>
-		
-				<a href="https://twitter.com/Mehdinait10">
-					<span class="fa fa-twitter fa-5x" aria-hidden="true"></span>
-				</a>
-				
-				<a href="mailto: mehdi.nait.hammou1@gmail.com">
-					<span class="fa fa-envelope fa-5x" aria-hidden="true"></span>
-				</a>
-				
-			</div>
-
-		</div>
-	 </div>
-
-</div>
+                    <div class="skill-container" style="text-align: center;">
+                        <div class="skill-section">
+                            <h2 class="th_table" style="color: white;">Machine Learning</h2>
+                            <div class="td_table">
+                                <p><br>
+                                    <strong style="color: white;">Tensorflow</strong>,
+                                    <strong style="color: white;">Tensorflow lite</strong>, Tensorflow micro,
+                                    <strong style="color: white;">OpenCV</strong>, OpenVino,
+                                    <strong style="color: white;">Keras</strong>,
+                                    <strong style="color: white;">Scikit-Learn</strong>
+                                    ,<strong style="color: white;">Matplotlib</strong>
+                                    ,<strong style="color: white;">Numpy</strong>
+                                    , SciPy.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill-section">
+                            <h2 class="th_table" style="color: white;">Programming languages</h2>
+                            <div class="td_table">
+                                <p><br>
+                                    <strong style="color: white;">Python3</strong>, R,
+                                    <strong style="color: white;">C language</strong>,
+                                    <strong style="color: white;">C++</strong>, C#,
+                                    <strong style="color: white;">Java</strong>, VHDL,
+                                    <strong style="color: white;">
+                                        Matlab/Octave</strong>, Assembly,
+                                    <strong style="color: white;">LaTex</strong>.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill-section">
+                            <h2 class="th_table" style="color: white;">Tools & Environments</h2>
+                            <div class="td_table">
+                                <p><br>
+                                    <strong style="color: white;">Jupyter</strong>,  Bash,
+                                    <strong style="color: white;">Version control (Git)</strong>, VsCode, AWS (ongoing),
+                                    <br>
+                                    Docker (ongoing)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill-section">
+                            <h2 class="th_table" style="color: white;">Operating Systems</h2>
+                            <div class="td_table">
+                                <p><br>
+                                    <strong style="color: white;">Linux (Ubuntu, Debian, Raspbian)</strong>, Windows, MacOs
+                                </p>
+                            </div>
+                        </div>
 
 
-<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-<script type="text/javascript">
-		$(document).ready(function() {
-				/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-				*/
-		$().UItoTop({ easingType: 'easeOutQuart' });
-});
-</script>
-</body>
-</html>
+                    </div>
+
+                </div>
+                <br><br>
+                <div class="team-head" style="text-align: center;">
+                    <div class="skill-section">
+                        <h2 class="th_table" style="color: white;">Languages</h2>
+                        <td class="td_table" style="text-align: center;"><br>
+                            <p>
+                                <strong style="color: white;">English :</strong>
+                                Fluent
+                                <strong>(Toeic C1 level)</strong>
+                            </p>
+                            <p>
+                                <strong style="color: white;">French :</strong>
+                                Fluent (C2 level)
+                            </p>
+                            <p>
+                                <strong style="color: white;">German :</strong>
+                                Beginner (ongoing)
+                            </p>
+                            <p>
+                                <strong style="color: white;">Arabic :</strong>
+                                Native language
+                            </p>
+
+                        </td>
+                    </div>
+
+                </div>
+                <br>
+                <br>
+                <div id="certifications" class="team-head">
+                    <h3>CERTIFICATIONS</h3>
+                    <br>
+
+                    <div class="certif-container">
+                        <div class="certif-section">
+                            <h2 class="th_table">
+                                <a href="Documents/HCIA IoT.pdf" target="_blank" style="color: white; font-weight: 10;">HUWAEI HCIA-IoT 2.5</a>
+                            </h2>
+                            <a href="Documents/HCIA IoT.pdf" target="_blank"><img src="images/HCIA.png"/></a>
+                        </div>
+
+                        <div class="certif-section">
+                            <h2 class="th_table">
+                                <a href="Documents/Python certification.pdf" target="_blank" style="color: white; font-weight: 10;">University of Michigan Python3 Programming</a>
+                            </h2>
+                            <a href="Documents/Python certification.pdf" target="_blank"><img src="images/michigan.png"/></a>
+                        </div>
+
+                        <div class="certif-section">
+                            <h2 class="th_table">
+                                <a href="Documents/TOEIC.pdf" target="_blank" style="color: white; font-weight: 10;">TOEIC Certification</a>
+                            </h2>
+                            <a href="Documents/TOEIC.pdf" target="_blank"><img src="images/toeic.png"/></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="references" class="team-head">
+                    <br><br>
+                    <h3>REFERENCES</h3>
+                </div>
+
+                <div class="clients">
+                    <div class="course_demo1">
+                        <ul id="flexiselDemo1">
+                            <li>
+                                <div class="client">
+                                    <img src="images/berbia.png" alt=""/>
+                                    <h3>Pr. BERBIA Hassan</h3>
+                                    <h4>professor at ENSIAS</h4>
+                                    <br>
+                                    <p style="margin-left: 5%; margin-right: 5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="client">
+                                    <img src="images/Pr Berrahou.png" alt=""/>
+                                    <h3>Pr. BERRAHOU Aissam</h3>
+                                    <h4>professor at ENSIAS</h4>
+                                    <br>
+                                    <p style="margin-left: 5%; margin-right: 5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="client">
+                                    <img src="images/el bouanani.png" alt=""/>
+                                    <h3>Pr. EL BOUANANI Faissal</h3>
+                                    <h4>professor at ENSIAS</h4>
+                                    <br>
+                                    <p style="margin-left: 5%; margin-right: 5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="client">
+                                    <img src="images/jamali.png" alt=""/>
+                                    <h3>Mr. JAMALI Hatim</h3>
+                                    <h4>professor at ENSIAS</h4>
+                                    <br>
+                                    <p style="margin-left: 5%; margin-right: 5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="client">
+                                    <img src="images/moukhlis.png" alt=""/>
+                                    <h3>Mr. MOUKHLIS Yahiya</h3>
+                                    <h4>professor at ENSIAS</h4>
+                                    <br>
+                                    <p style="margin-left: 5%; margin-right: 5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="client">
+                                    <img src="images/ezzaim.png" alt=""/>
+                                    <h3>Mr EZZAIM Soufiane</h3>
+                                    <h4>professor at ENSIAS</h4>
+                                    <br>
+                                    <p style="margin-left: 5%; margin-right: 5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen"/>
+                    <script type="text/javascript">
+                        $(window).load(function () {
+                            $("#flexiselDemo1").flexisel({
+                                visibleItems: 4,
+                                animationSpeed: 1000,
+                                autoPlay: true,
+                                autoPlaySpeed: 3000,
+                                pauseOnHover: true,
+                                enableResponsiveBreakpoints: true,
+                                responsiveBreakpoints: {
+                                    portrait: {
+                                        changePoint: 640,
+                                        visibleItems: 1
+                                    },
+                                    landscape: {
+                                        changePoint: 768,
+                                        visibleItems: 2
+                                    },
+                                    tablet: {
+                                        changePoint: 1024,
+                                        visibleItems: 3
+                                    }
+                                }
+                            });
+
+                        });
+                    </script>
+                    <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+                </div>
+            </div>
+        </div>
+
+        <!---contact-->
+
+        <div id="contact" class="contact">
+            <div class="container">
+                <div class="team-head">
+                    <h3>CONTACT ME</h3>
+                    <p style="text-align: center; color: #000;font-size: large;">I'm currently looking for an end-of-study 6 months internship, to begin Feb. 2022. If you have any
+                                                                                                                                                                                                					openning available I would be happy to participate in an interview.</p>
+                </div><br><br><div class="div_center">
+                    <a href="https://www.github.com/mehdi-nait">
+                        <span class="fa fa-github fa-5x" aria-hidden="false"></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mehdi-nait-hammou/">
+                        <span class="fa fa-linkedin-square fa-5x" aria-hidden="true"></span>
+                    </a>
+                    <a href="https://twitter.com/Mehdinait10">
+                        <span class="fa fa-twitter fa-5x" aria-hidden="true"></span>
+                    </a>
+                    <a href="mailto: mehdi.nait.hammou1@gmail.com">
+                        <span class="fa fa-envelope fa-5x" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html></body></html></div><a href="#home" id="toTop" class="scroll" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a><script type="text/javascript">$(document).ready(function () { /*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+			*/
+    $().UItoTop({easingType: 'easeOutQuart'});
+});</script></body></html>
