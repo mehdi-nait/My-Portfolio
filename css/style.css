@@ -288,7 +288,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .gallery-box:hover span.rollover1 {
 	background: url(../images/github-white_34x34.png) center no-repeat rgba(0, 0, 0, 1);
 cursor: pointer;
-height: 238px;
+height: 250px;
 width: 250px;
 	display: block;
 	position: absolute;
@@ -1028,7 +1028,7 @@ height: 116px;
 width: 123px;
 }
 .works {
-padding: 2em 0 3em 0;
+padding: 2em 0 300em 0;
 }
 .skills {
 padding: 2em 0;
@@ -1064,6 +1064,7 @@ font-size: 1em;
 #titre{
 	margin-top: 70mm;
 	text-align: center;
+	
 }
 .Job h3 {
 	color:#fff;
